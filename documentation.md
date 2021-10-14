@@ -8,11 +8,11 @@ Basic understanding of Javascript and React
 ## Setting Up the Sample Project
 Using your terminal, generate a Next.js by using the create-next-app CLI:
 
-`npx create-next-app screenrec`
+`npx create-next-app screenrecorder`
 
 Go to your project directory :
 
-`cd screenrec`
+`cd screenrecorder`
 
 Install the required dependencies. We will use materialize to style our app’s buttons, cloudinary for our app’s cloud storage and dotenv to handle cloudinary environment variables:
 
@@ -222,4 +222,4 @@ The handleUpload function uploads the recorded video to the backend where its de
 }
 ```
 
-Thats it! You can now recorde your screen as video and upload it to cloudinary. Your video link will automatically appear in the link tab above the video
+Thats it! You can now record your screen as video and upload it to cloudinary. Your video link will automatically appear in the link tab above the video
